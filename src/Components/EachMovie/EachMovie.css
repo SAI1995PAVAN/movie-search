@@ -1,0 +1,22 @@
+.each-movie-container {
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.each-movie-container-data {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px;
+  text-align: justify;
+}
+
+.each-movie-container:hover {
+  transform: scaleY(1.05);
+}

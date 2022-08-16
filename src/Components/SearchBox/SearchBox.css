@@ -1,0 +1,11 @@
+#search-movie {
+  padding: 5px 20px;
+}
+
+#search-button {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+}
