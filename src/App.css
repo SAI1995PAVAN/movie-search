@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+.movieslist {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  grid-gap: 10px;
+}
+
+h1 {
+  text-decoration: underline 5px solid black;
+}
