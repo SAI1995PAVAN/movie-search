@@ -42,7 +42,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Movie Search App using omdb</h1>
+        <h1>Movie Search App</h1>
         <div>
           <SearchBox
             handleSearch={this.handleSearch}
